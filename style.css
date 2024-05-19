@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.apple{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.appleText{ 
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.typing1{
+    margin-left: 50px;
+    font-size: 40px;
+    width: 470px;
+    border-right: 5px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 3s steps(300);
+}
+.typing2{
+    margin-left: 50px;
+    font-size: 40px;
+    width: 280px;
+    border-right: 5px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 3s steps(300);
+}
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+.savebtn{
+    margin-left: 80%;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 51, 255, 0.764);
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.image-box input[type="radio"]{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid black;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px aqua;
+}
+.image-box input[type="radio"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px aqua;
+}
+#img-01{
+    background-image: url(./Archive/cases/case1.png);
+    background-size: cover;
+}
+#img-02{
+    background-image: url(./Archive/cases/case2.png);
+    background-size: cover;
+}
+#img-03{
+    background-image: url(./Archive/cases/case3.png);
+    background-size: cover;
+}
+#img-04{
+    background-image: url(./Archive/cases/case4.png);
+    background-size: cover;
+}
+#img-05{
+    background-image: url(./Archive/cases/case5.png);
+    background-size: cover;
+}
+.image-bg{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-left: 158px;
+}
+#img-01:checked ~ .image-bg{
+    background-image: url(./Archive/cases/case1.png);
+    background-size: cover;
+}
+#img-02:checked ~ .image-bg{
+    background-image: url(./Archive/cases/case2.png);
+    background-size: cover;
+}
+#img-03:checked ~ .image-bg{
+    background-image: url(./Archive/cases/case3.png);
+    background-size: cover;
+}
+#img-04:checked ~ .image-bg{
+    background-image: url(./Archive/cases/case4.png);
+    background-size: cover;
+}
+#img-05:checked ~ .image-bg{
+    background-image: url(./Archive/cases/case5.png);
+    background-size: cover;
+}
+
+fieldset{
+    border: none;
+}
+.image-box2 input[type="radio"]{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid black;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px aqua;
+}
+.image-box2 input[type="radio"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px aqua;
+}
+#img-001{
+    background-image: url(./Archive/straps/strap1.png);
+    background-size: cover;
+}
+#img-002{
+    background-image: url(./Archive/straps/strap2.png);
+    background-size: cover;
+}
+#img-003{
+    background-image: url(./Archive/straps/strap3.png);
+    background-size: cover;
+}
+#img-004{
+    background-image: url(./Archive/straps/strap4.png);
+    background-size: cover;
+}
+#img-005{
+    background-image: url(./Archive/straps/strap5.png);
+    background-size: cover;
+}
+.image-bg2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    /* position: absolute; */
+    margin-left: -160px;
+}
+#img-001:checked ~ .image-bg2{
+    background-image: url(./Archive/straps/strap1.png);
+    background-size: cover;
+}
+#img-002:checked ~ .image-bg2{
+    background-image: url(./Archive/straps/strap2.png);
+    background-size: cover;
+}
+#img-003:checked ~ .image-bg2{
+    background-image: url(./Archive/straps/strap3.png);
+    background-size: cover;
+}
+#img-004:checked ~ .image-bg2{
+    background-image: url(./Archive/straps/strap4.png);
+    background-size: cover;
+}
+#img-005:checked ~ .image-bg2{
+    background-image: url(./Archive/straps/strap5.png);
+    background-size: cover;
+}
