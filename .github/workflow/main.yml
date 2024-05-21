@@ -10,7 +10,6 @@ env:
   IMAGE_NAME: ${{ vars.IMAGE_NAME }}
   DOMAIN_NAME: ${{ vars.DOMAIN_NAME }}
   CONTAINER_NAME: ${{ vars.CONTAINER_NAME }}
-
 on:
   push:
     branches:
