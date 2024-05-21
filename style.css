@@ -65,23 +65,23 @@
     box-shadow: 0 0 5px aqua;
 }
 #img-01{
-    background-image: url(./Archive/cases/case1.png);
+    background-image: url(/Archive/cases/case1.png);
     background-size: cover;
 }
 #img-02{
-    background-image: url(./Archive/cases/case2.png);
+    background-image: url(/Archive/cases/case2.png);
     background-size: cover;
 }
 #img-03{
-    background-image: url(./Archive/cases/case3.png);
+    background-image: url(/Archive/cases/case3.png);
     background-size: cover;
 }
 #img-04{
-    background-image: url(./Archive/cases/case4.png);
+    background-image: url(/Archive/cases/case4.png);
     background-size: cover;
 }
 #img-05{
-    background-image: url(./Archive/cases/case5.png);
+    background-image: url(/Archive/cases/case5.png);
     background-size: cover;
 }
 .image-bg{
@@ -93,23 +93,23 @@
     margin-left: 158px;
 }
 #img-01:checked ~ .image-bg{
-    background-image: url(./Archive/cases/case1.png);
+    background-image: url(/Archive/cases/case1.png);
     background-size: cover;
 }
 #img-02:checked ~ .image-bg{
-    background-image: url(./Archive/cases/case2.png);
+    background-image: url(/Archive/cases/case2.png);
     background-size: cover;
 }
 #img-03:checked ~ .image-bg{
-    background-image: url(./Archive/cases/case3.png);
+    background-image: url(/Archive/cases/case3.png);
     background-size: cover;
 }
 #img-04:checked ~ .image-bg{
-    background-image: url(./Archive/cases/case4.png);
+    background-image: url(/Archive/cases/case4.png);
     background-size: cover;
 }
 #img-05:checked ~ .image-bg{
-    background-image: url(./Archive/cases/case5.png);
+    background-image: url(/Archive/cases/case5.png);
     background-size: cover;
 }
 
@@ -130,23 +130,23 @@ fieldset{
     box-shadow: 0 0 5px aqua;
 }
 #img-001{
-    background-image: url(./Archive/straps/strap1.png);
+    background-image: url(/Archive/straps/strap1.png);
     background-size: cover;
 }
 #img-002{
-    background-image: url(./Archive/straps/strap2.png);
+    background-image: url(/Archive/straps/strap2.png);
     background-size: cover;
 }
 #img-003{
-    background-image: url(./Archive/straps/strap3.png);
+    background-image: url(/Archive/straps/strap3.png);
     background-size: cover;
 }
 #img-004{
-    background-image: url(./Archive/straps/strap4.png);
+    background-image: url(/Archive/straps/strap4.png);
     background-size: cover;
 }
 #img-005{
-    background-image: url(./Archive/straps/strap5.png);
+    background-image: url(/Archive/straps/strap5.png);
     background-size: cover;
 }
 .image-bg2{
@@ -158,22 +158,22 @@ fieldset{
     margin-left: -160px;
 }
 #img-001:checked ~ .image-bg2{
-    background-image: url(./Archive/straps/strap1.png);
+    background-image: url(/Archive/straps/strap1.png);
     background-size: cover;
 }
 #img-002:checked ~ .image-bg2{
-    background-image: url(./Archive/straps/strap2.png);
+    background-image: url(/Archive/straps/strap2.png);
     background-size: cover;
 }
 #img-003:checked ~ .image-bg2{
-    background-image: url(./Archive/straps/strap3.png);
+    background-image: url(/Archive/straps/strap3.png);
     background-size: cover;
 }
 #img-004:checked ~ .image-bg2{
-    background-image: url(./Archive/straps/strap4.png);
+    background-image: url(/Archive/straps/strap4.png);
     background-size: cover;
 }
 #img-005:checked ~ .image-bg2{
-    background-image: url(./Archive/straps/strap5.png);
+    background-image: url(/Archive/straps/strap5.png);
     background-size: cover;
 }
